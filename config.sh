@@ -2,13 +2,13 @@
 
 # The file to play when the stream is offline, should be full path, and must be readable by nginx
 # The file should have the same resolution and bitrate as your actual stream
-offfi="CHANGE ME"
+offfi="/usr/share/nginx/streamRIP/offline.mp4"
 
 # Should be some random unguessable string, this will be your stream key for streamRIP
-secret="CHANGE ME"
+secret="LTSAR"
 
 # The RTMP endpoint, ie: your Twitch RTMP link
-rtmpe="CHANGE ME"
+rtmpe="rtmp://a.rtmp.youtube.com/live2/"
 
 # The RTMP ingest stream, you probaly don't need to change this if you're using streamRIP nginx config
 rtmpi="rtmp://127.0.0.1/live/$secret"
